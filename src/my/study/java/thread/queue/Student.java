@@ -1,4 +1,4 @@
-package my.study.java.thread.noqueue;
+package my.study.java.thread.queue;
 
 /**
  * Created by LZS2851 on 2016/1/19.
@@ -6,9 +6,9 @@ package my.study.java.thread.noqueue;
  */
 public class Student extends Thread{
     private String studentName;
-    private Water water;
+    private Water2 water;
 
-    public Student(String studentName, Water water){
+    public Student(String studentName, Water2 water){
         super();
         this.studentName = studentName;
         this.water = water;
